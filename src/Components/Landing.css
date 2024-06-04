@@ -1,0 +1,196 @@
+.hero{
+    display: block;
+}
+.hero-top-row1 {
+    display: flex;
+    gap: 2rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    height: 80vh; 
+    width: 50%;
+}
+.first-image-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    float: left;
+    margin-left: -20rem;
+}
+.first-image-box1 {
+    display: flex;
+    gap: 1rem;
+    margin: -5rem;
+    padding: 6rem;
+    margin-top: -33%; 
+}
+.first-div{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    gap: 2rem;
+    margin: 1rem;
+    padding: 6rem;
+}
+.first{
+    gap: 25px;
+    display: flex;
+}
+.hero-main-container{
+    display: block;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-first-header{
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 7rem;
+    font-size: 1rem;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.hero-card-row1{
+    display: flex;
+    /* margin: 4rem; */
+    /* margin-top: 30rem; */
+    height: 100vh;
+    margin-bottom: 6rem;
+    margin-top: 1.6rem;
+}
+.hero-card-row2{
+    display: flex;
+    margin-left: 4%;
+    /* margin-top: 30rem; */
+    height: 100vh;
+    margin-bottom: 6rem;
+    margin-top: -20rem;
+}
+.hero-title-text .hero-price {
+    /* font-size: .8rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+}
+.hero-bottom-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 10rem;
+    /* margin: 1.6rem 8rem 8rem 4rem; */
+}
+.hero-card {
+    margin: .5rem;
+    padding: 1rem;
+}
+.hero-click{
+    margin-left: 45%;
+    margin-top: -25%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.hero-second-container{
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
+.hero-second-header{
+    justify-content: center;
+    align-content: center;
+    margin: 0 7rem;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    cursor: pointer;
+
+}
+.hero-again-row1{
+    /* margin: .10rem; */
+    padding: 1rem;
+    display: flex;
+    margin-left: 8rem;
+    gap: 1rem;
+}
+.hero-advice{
+    cursor: pointer;
+}
+.hero-again-title-text{
+   display: flex;
+}
+.hero-new-products-main-container{
+    display: flex;
+    margin-left: 25rem;
+}
+.it-image {
+    width: 240px;
+    margin: .6rem;
+    padding: -1rem;
+    cursor: pointer;
+}
+.hero-new-products-text{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 0 rem;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+.texts{
+    width: 180px;
+    font-size: .8rem;
+    margin-left: 2rem;
+}
+.saved-user {
+    display: flex;
+   gap: 2rem;
+    align-items: center;
+    margin-left: 2rem;
+}
+.saved-star-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
+}
+.saved-star-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
+}
+
+.saved-star-left img {
+    width: 12px;
+    height: 12px;
+}
+
+.saved-user-count img {
+    width: 12px;
+    height: 12px;
+}
+
+.saved-user-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    font-size: .6rem;
+    cursor: pointer;
+}
+.saved-user-arrow{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    font-size: .6rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
